@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/tiket-oss/phpsessgo/phpencode"
+	"github.com/eligundry/phpsessgo/phpencode"
 )
 
 type SessionManager interface {

@@ -7,7 +7,7 @@ The project aimed to imitating PHP Session Management in as much aspect as possi
 Create new session manager
 ```go
 import (
-	"github.com/tiket-oss/phpsessgo"
+	"github.com/eligundry/phpsessgo"
 )
 
 sessionManager := phpsessgo.NewSessionManager( 

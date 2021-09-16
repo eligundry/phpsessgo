@@ -4,9 +4,9 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/eligundry/phpsessgo"
 	"github.com/go-redis/redis"
 	"github.com/stretchr/testify/require"
-	"github.com/tiket-oss/phpsessgo"
 )
 
 func TestNewRedisSessionManager(t *testing.T) {

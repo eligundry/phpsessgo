@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/tiket-oss/phpsessgo/phpserialize"
+	"github.com/eligundry/phpsessgo/phpserialize"
 )
 
 type PhpEncoder struct {

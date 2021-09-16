@@ -6,11 +6,11 @@ import (
 	"net/http/httptest"
 	"testing"
 
+	"github.com/eligundry/phpsessgo"
+	"github.com/eligundry/phpsessgo/mock"
+	"github.com/eligundry/phpsessgo/phpencode"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/require"
-	"github.com/tiket-oss/phpsessgo"
-	"github.com/tiket-oss/phpsessgo/mock"
-	"github.com/tiket-oss/phpsessgo/phpencode"
 )
 
 func TestSessionManager_Start_GenerateSessionID(t *testing.T) {

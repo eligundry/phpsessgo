@@ -1,6 +1,6 @@
 package phpserialize
 
-import "github.com/tiket-oss/phpsessgo/phptype"
+import "github.com/eligundry/phpsessgo/phptype"
 
 const (
 	TOKEN_NULL              rune = 'N'

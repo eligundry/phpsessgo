@@ -4,7 +4,7 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/tiket-oss/phpsessgo"
+	"github.com/eligundry/phpsessgo"
 	"github.com/stretchr/testify/require"
 )
 

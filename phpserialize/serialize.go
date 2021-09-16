@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/tiket-oss/phpsessgo/phptype"
+	"github.com/eligundry/phpsessgo/phptype"
 )
 
 func Serialize(v phptype.Value) (string, error) {

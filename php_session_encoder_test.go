@@ -3,7 +3,7 @@ package phpsessgo_test
 import (
 	"testing"
 
-	"github.com/tiket-oss/phpsessgo"
+	"github.com/eligundry/phpsessgo"
 	"github.com/stretchr/testify/require"
 )
 
